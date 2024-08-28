@@ -1,0 +1,24 @@
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+  }
+  
+  .header, .day {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .header {
+    font-weight: bold;
+    background-color: #f0f0f0;
+  }
+  
+  .day {
+    border: 1px solid #ddd;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
